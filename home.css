@@ -1,0 +1,253 @@
+html {
+  font-size: 62.5%;
+  font-family: sans-serif;
+  color: white;
+}
+body {
+  background-color: #191919;
+  margin: 0;
+}
+a {
+  text-decoration: none;
+}
+
+/* header  */
+header {
+  display: block;
+}
+.all-nav {
+  padding: 0 1rem;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid hsla(0, 0%, 100%, 0.062745098);
+}
+.nav-left {
+  display: flex;
+  align-items: center;
+}
+.nav-left img {
+  height: 50px;
+}
+.nav-left p {
+  color: white;
+  font-size: 1.5rem;
+}
+.nav-middle {
+  display: flex;
+}
+.nav-middle a {
+  margin: 2rem;
+  color: white;
+  font-size: 2rem;
+}
+.nav-right {
+  width: 25rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.nav-right button {
+  padding: 1.2rem 2.4rem;
+  border-radius: 9px;
+  color: white;
+  height: 4rem;
+  outline: none;
+}
+.trade-btn {
+  background-color: #3eb489;
+  border: none;
+}
+.Connect-btn {
+  background-color: inherit;
+}
+
+/* main  */
+.main-container {
+  width: 100%;
+  max-width: 126.4rem;
+  padding-left: 3.2rem;
+  padding-right: 3.2rem;
+  margin: 0 auto;
+  border-bottom: 1px solid hsla(0, 0%, 100%, 0.062745098);
+}
+.main-head {
+  max-width: 165rem;
+  margin: 0 7.6rem;
+  padding: 6.2rem 3.2rem 0;
+  font-family: sans-serif;
+  max-width: 75rem;
+}
+.main-head h1 {
+  font-size: 5.7rem;
+  line-height: 6.8rem;
+  margin-bottom: 1.4rem;
+  font-weight: 700;
+  color: white;
+  letter-spacing: 0;
+}
+.main-head p {
+  font-size: 2rem;
+  line-height: 2.5rem;
+  max-width: 44.4rem;
+  font-weight: 200;
+  color: #cecece;
+  margin-bottom: 2.8rem;
+}
+.main-head button {
+  padding: 1.2rem 2.4rem;
+  border-radius: 4px;
+  color: white;
+  height: 4rem;
+  outline: none;
+  background-color: #3eb489;
+  border: none;
+  font-size: 1.4rem;
+  line-height: 2rem;
+  font-weight: 400;
+}
+.main-table {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-top: 6.2rem;
+  padding-bottom: 1.5rem;
+  width: 100%;
+}
+.main-table-info {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  max-width: 35rem;
+  padding-top: 2.8rem;
+  padding-bottom: 2.8rem;
+  margin: 1.6rem 0;
+  border: 1px solid hsla(0, 0%, 100%, 0.062745098);
+  box-shadow: 0 0.7rem 0.8rem rgba(0, 0, 0, 0.2);
+}
+.main-table-info img {
+  margin-left: 3.5rem;
+  margin-right: 3.95rem;
+  height: 5rem;
+}
+.table-info-title p {
+  color: #cecece;
+  font-size: 1.6rem;
+  line-height: 2.5rem;
+  letter-spacing: 0;
+}
+
+/* middle info section  */
+
+/* middle info  */
+.middle-info-sec {
+  max-width: 126rem;
+  margin: 0 auto;
+  border-bottom: 1px solid hsla(0, 0%, 100%, 0.062745098);
+}
+.middle-info {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 5.6rem 0;
+}
+.middle-info-benefits {
+  padding: 2.5rem 0;
+  max-width: 35rem;
+}
+.middle-info-benefits p {
+  color: white;
+  font-size: 1.5rem;
+  font-family: sans-serif;
+}
+
+/* buy plan  */
+.buy-plan {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin: 3rem 0;
+  padding: 1.2rem 0;
+}
+.plan-sub-title {
+  display: flex;
+  align-items: center;
+}
+.plan-sub-title p {
+  font-size: 1.6rem;
+}
+.middle-info-plan-title p {
+  font-size: 4.5rem;
+  max-width: 40rem;
+  font-weight: 600;
+  margin-bottom: 2.3rem;
+}
+.middle-info-plan {
+  border: 1px solid #4d4d4e;
+  box-shadow: 0 0.7rem 0.8rem rgba(0, 0, 0, 0.2);
+  border-radius: 1.4rem;
+  max-width: 60rem;
+  margin: 1.5rem 0;
+  padding: 1.4rem 1rem;
+}
+.middle-info-plan p {
+  font-size: 1.5rem;
+  line-height: 2.3rem;
+}
+.middle-info-plan button {
+  padding: 1.2rem;
+  margin: 1.3rem 1.2rem;
+  color: white;
+  border-radius: 4px;
+  font-size: 1.5rem;
+  font-weight: 400;
+  height: 4rem;
+  text-align: center;
+  line-height: 2rem;
+}
+.plan-buy-btn {
+  background-color: #3eb489;
+  border: none;
+}
+.plan-rm-btn {
+  background-color: inherit;
+  border: 1px solid white;
+}
+
+/* footer  */
+.home-foot {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 20rem;
+  border-top: 1px solid #4d4d4e;
+  padding-top: 4rem;
+  width: 100vw;
+  text-align: center;
+}
+.comany-name {
+  height: 4rem;
+}
+.social-links {
+  display: flex;
+}
+.social-links a {
+  text-decoration: none;
+}
+.social-icons {
+  height: 4rem;
+}
+.footer-links {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1.3rem;
+}
+.foot-link {
+  color: #e6e6ea;
+  font-size: 1.7rem;
+  line-height: 1.8rem;
+  font-weight: 400;
+  text-decoration: none;
+  margin: 0 1.2rem;
+  margin-top: 1.2rem;
+}

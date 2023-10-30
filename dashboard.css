@@ -94,17 +94,17 @@ header {
   line-height: 2rem;
 }
 
-/* tables  */
+/* tables   stats */
 .dash-two-tables {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   margin-top: 2.5rem;
   margin-bottom: 2rem;
 }
 .dash-tables {
   display: flex;
   flex-direction: column;
-  width: 45rem;
+  width: 55rem;
   height: 25rem !important;
   height: 2.2rem;
   padding: 1.6rem;
@@ -132,3 +132,5 @@ header {
   height: 2.5rem;
   padding: 0.2rem 0;
 }
+
+/* tokens   */

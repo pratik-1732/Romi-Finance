@@ -30,15 +30,18 @@ header {
 }
 .nav-left p {
   color: white;
-  font-size: 1.5rem;
+  font-size: 1.9rem;
 }
 .nav-middle {
   display: flex;
 }
 .nav-middle a {
   margin: 2rem;
-  color: white;
+  color: #787983;
   font-size: 2rem;
+}
+.nav-middle a:hover {
+  color: white;
 }
 .nav-right {
   width: 25rem;
@@ -47,18 +50,29 @@ header {
   justify-content: space-evenly;
 }
 .nav-right button {
-  padding: 1.2rem 2.4rem;
-  border-radius: 9px;
+  padding: 1.2rem 1rem;
+  border-radius: 5px;
   color: white;
   height: 4rem;
-  outline: none;
+  border: 1px solid hsla(0, 0%, 100%, 0.1607843137254902);
 }
 .trade-btn {
   background-color: #3eb489;
   border: none;
+  margin-right: 2rem;
+}
+.trade-btn:hover {
+  background-color: #207a59;
 }
 .Connect-btn {
   background-color: inherit;
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  margin-right: 2rem;
+}
+.Connect-btn:hover {
+  background-color: hsla(0, 0%, 93.3%, 0.0784313725490196);
 }
 
 /* main  */
@@ -93,7 +107,7 @@ header {
   color: #cecece;
   margin-bottom: 2.8rem;
 }
-.main-head button {
+.le-btn {
   padding: 1.2rem 2.4rem;
   border-radius: 4px;
   color: white;
@@ -104,6 +118,9 @@ header {
   font-size: 1.4rem;
   line-height: 2rem;
   font-weight: 400;
+}
+.le-btn:hover {
+  background-color: #207a59;
 }
 .main-table {
   display: flex;
@@ -135,6 +152,10 @@ header {
   line-height: 2.5rem;
   letter-spacing: 0;
 }
+.price {
+  color: white !important;
+  font-size: 3rem !important;
+}
 
 /* middle info section  */
 
@@ -151,14 +172,27 @@ header {
   flex-wrap: wrap;
   padding: 5.6rem 0;
 }
+.middle-info-benefits-title {
+  display: flex;
+}
 .middle-info-benefits {
   padding: 2.5rem 0;
   max-width: 35rem;
 }
 .middle-info-benefits p {
   color: white;
-  font-size: 1.5rem;
+  font-size: 2rem;
   font-family: sans-serif;
+  line-height: 2rem;
+  margin-left: 2rem;
+  font-weight: 500;
+}
+.benefits-desc p {
+  font-size: 1.9rem;
+  line-height: 2.2rem;
+  color: #cecece;
+  max-width: 30rem;
+  font-weight: 400;
 }
 
 /* buy plan  */
@@ -173,8 +207,14 @@ header {
   display: flex;
   align-items: center;
 }
-.plan-sub-title p {
-  font-size: 1.6rem;
+.plan-sub-title img {
+  height: 4rem;
+}
+.plan-sub-title-p {
+  font-size: 2.1rem !important;
+  line-height: 3rem !important;
+  margin-left: 2rem !important;
+  height: 3rem !important;
 }
 .middle-info-plan-title p {
   font-size: 4.5rem;
@@ -188,7 +228,7 @@ header {
   border-radius: 1.4rem;
   max-width: 60rem;
   margin: 1.5rem 0;
-  padding: 1.4rem 1rem;
+  padding: 1.4rem;
 }
 .middle-info-plan p {
   font-size: 1.5rem;
@@ -209,9 +249,15 @@ header {
   background-color: #3eb489;
   border: none;
 }
+.plan-buy-btn:hover {
+  background-color: #207a59;
+}
 .plan-rm-btn {
   background-color: inherit;
   border: 1px solid white;
+}
+.plan-rm-btn:hover {
+  background-color: hsla(0, 0%, 93.3%, 0.0784313725490196);
 }
 
 /* footer  */
@@ -221,21 +267,43 @@ header {
   justify-content: center;
   height: 20rem;
   border-top: 1px solid #4d4d4e;
-  padding-top: 4rem;
+  padding-top: 2rem;
   width: 100vw;
   text-align: center;
 }
-.comany-name {
+.company-name {
   height: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1.1rem;
+}
+.company-name img {
+  height: 8rem;
+}
+.company-name p {
+  font-size: 3rem;
+  font-weight: 500;
+  line-height: 2rem;
 }
 .social-links {
   display: flex;
+  gap: 2rem;
+  justify-content: center;
 }
 .social-links a {
   text-decoration: none;
+  margin: 2.6rem;
 }
 .social-icons {
-  height: 4rem;
+  height: 3rem;
+  color: #787983;
+}
+.social-icons:hover {
+  color: white;
+}
+.social-icons i {
+  height: 2.5rem;
 }
 .footer-links {
   display: flex;

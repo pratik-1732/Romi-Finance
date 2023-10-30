@@ -30,15 +30,18 @@ header {
 }
 .nav-left p {
   color: white;
-  font-size: 1.5rem;
+  font-size: 1.9rem;
 }
 .nav-middle {
   display: flex;
 }
 .nav-middle a {
   margin: 2rem;
-  color: white;
+  color: #787983;
   font-size: 2rem;
+}
+.nav-middle a:hover {
+  color: white;
 }
 .nav-right {
   width: 25rem;
@@ -146,21 +149,43 @@ header {
   justify-content: center;
   height: 20rem;
   border-top: 1px solid #4d4d4e;
-  padding-top: 4rem;
+  padding-top: 2rem;
   width: 100vw;
   text-align: center;
 }
-.comany-name {
+.company-name {
   height: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1.1rem;
+}
+.company-name img {
+  height: 8rem;
+}
+.company-name p {
+  font-size: 3rem;
+  font-weight: 500;
+  line-height: 2rem;
 }
 .social-links {
   display: flex;
+  gap: 2rem;
+  justify-content: center;
 }
 .social-links a {
   text-decoration: none;
+  margin: 2.6rem;
 }
 .social-icons {
-  height: 4rem;
+  height: 3rem;
+  color: #787983;
+}
+.social-icons:hover {
+  color: white;
+}
+.social-icons i {
+  height: 2.5rem;
 }
 .footer-links {
   display: flex;

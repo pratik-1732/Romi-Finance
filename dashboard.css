@@ -1,0 +1,134 @@
+html {
+  font-family: sans-serif;
+  color: white;
+  font-size: 62.5%;
+  font-weight: 400;
+}
+body {
+  background-color: #191919;
+  margin: 0;
+}
+a {
+  text-decoration: none;
+}
+
+/* header  */
+header {
+  display: block;
+}
+.all-nav {
+  padding: 0 1rem;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid hsla(0, 0%, 100%, 0.062745098);
+}
+.nav-left {
+  display: flex;
+  align-items: center;
+}
+.nav-left img {
+  height: 50px;
+}
+.nav-left p {
+  color: white;
+  font-size: 1.5rem;
+}
+.nav-middle {
+  display: flex;
+}
+.nav-middle a {
+  margin: 2rem;
+  color: white;
+  font-size: 2rem;
+}
+.nav-right {
+  width: 25rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.nav-right button {
+  padding: 1.2rem 2.4rem;
+  border-radius: 9px;
+  color: white;
+  height: 4rem;
+  outline: none;
+}
+.trade-btn {
+  background-color: #3eb489;
+  border: none;
+}
+.Connect-btn {
+  background-color: inherit;
+}
+
+/* main section  */
+
+/* main title  */
+.main-dash-sec {
+  padding-left: 15rem;
+  padding-right: 15rem;
+  padding-top: 2rem;
+}
+.dash-main-heads {
+  max-width: 34rem;
+  display: flex;
+  flex-direction: column;
+}
+.dash-head-title {
+  display: flex;
+  align-items: center;
+}
+.dash-head-title p {
+  padding-right: 1rem;
+  font-size: 3.3rem;
+  line-height: 2rem;
+  font-weight: 600;
+}
+.dash-head-disc {
+  max-width: 31rem;
+}
+.dash-head-disc p {
+  margin-top: 0;
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+/* tables  */
+.dash-two-tables {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 2.5rem;
+  margin-bottom: 2rem;
+}
+.dash-tables {
+  display: flex;
+  flex-direction: column;
+  width: 45rem;
+  height: 25rem !important;
+  height: 2.2rem;
+  padding: 1.6rem;
+  border-radius: 0.4rem;
+  border: 1px solid #4d4e4d;
+  font-size: 1.5rem;
+}
+.break-div {
+  height: 1px;
+  background: #4d4d4e;
+  margin: 1.05rem -1.5rem;
+}
+.dash-table-title {
+  font-size: 1.7rem;
+  height: 3.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  line-height: 2rem;
+  font-weight: 400;
+}
+.table-sub-content {
+  display: flex;
+  justify-content: space-between;
+  height: 2.5rem;
+  padding: 0.2rem 0;
+}

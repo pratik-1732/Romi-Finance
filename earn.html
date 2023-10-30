@@ -7,8 +7,36 @@
 
     <!-- css  -->
     <link rel="stylesheet" href="earn.css" />
+    <!-- fontawosome  -->
+    <script
+      src="https://kit.fontawesome.com/381a4c105d.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
+    <!-- navbar  -->
+    <header>
+      <div class="all-nav">
+        <div class="nav-left">
+          <img src="/Images/logo.png" alt="logo" />
+          <p>RomiFinance</p>
+        </div>
+        <div class="nav-middle">
+          <a href="home.html">Home</a>
+          <a href="dashboard.html">Dashboard</a>
+          <a href="#">NFT</a>
+          <a href="earn.html">Earn</a>
+          <a href="#">Buy</a>
+          <a href="referrals.html">Referrals</a>
+          <a href="#">Ecosystems</a>
+          <a href="#">About</a>
+        </div>
+        <div class="nav-right">
+          <button class="trade-btn">Trade</button>
+          <button class="Connect-btn">Connect Wallet</button>
+        </div>
+      </div>
+    </header>
     <main class="earn-main-sec">
       <div class="earn-sec">
         <!-- heading  -->
@@ -20,68 +48,225 @@
             <p>Stake $ZOMI and $ZLP to earn rewards.</p>
           </div>
         </div>
-
-        <!-- table  -->
-        <div class="earn-sec-tables">
-          <div class="sec-tables">
-            <div class="table-title-div">$ZOMI</div>
-            <div class="break-div"></div>
-            <!-- break div -->
-            <div class="table-content-div">
-              <div class="content-row">
-                <div class="right-label">Price</div>
-                <div class="left-label">$0.00</div>
-              </div>
-              <div class="content-row">
-                <div class="right-label">Price</div>
-                <div class="left-label">$0.00</div>
-              </div>
-              <div class="content-row">
-                <div class="right-label">Wallet</div>
-                <div class="left-label">... $ZOMI ($...)</div>
-              </div>
-              <div class="content-row">
-                <div class="right-label">Staked</div>
-                <div class="left-label">... $ZOMI ($...)</div>
+        <div class="tables-earn">
+          <!-- table 1  -->
+          <div class="earn-sec-tables">
+            <div class="sec-tables">
+              <div class="table-title-div">$ZOMI</div>
+              <div class="break-div"></div>
+              <!-- break div -->
+              <div class="table-content-div">
+                <div class="content-row">
+                  <div class="right-label">Price</div>
+                  <div class="left-label">$0.00</div>
+                </div>
+                <div class="content-row">
+                  <div class="right-label">Wallet</div>
+                  <div class="left-label">... $ZOMI ($...)</div>
+                </div>
+                <div class="content-row">
+                  <div class="right-label">Staked</div>
+                  <div class="left-label">... $ZOMI ($...)</div>
+                </div>
+                <div class="break-div"></div>
+                <!-- break div -->
+                <div class="content-row">
+                  <div class="right-label">APR</div>
+                  <div class="left-label">...%</div>
+                </div>
+                <div class="content-row">
+                  <div class="right-label">Rewards</div>
+                  <div class="left-label">$...</div>
+                </div>
+                <div class="content-row">
+                  <div class="right-label">Multiplier Points APR</div>
+                  <div class="left-label">100.00%</div>
+                </div>
+                <div class="content-row">
+                  <div class="right-label">Boost Percentage</div>
+                  <div class="left-label">...%</div>
+                </div>
+                <div class="break-div"></div>
+                <!-- break div -->
+                <div class="content-row">
+                  <div class="right-label">Total Staked</div>
+                  <div class="left-label">0 $ZOMI ($...)</div>
+                </div>
+                <div class="content-row">
+                  <div class="right-label">Total Supply</div>
+                  <div class="left-label">10,000 $ZOMI ($10)</div>
+                </div>
               </div>
               <div class="break-div"></div>
               <!-- break div -->
-              <div class="content-row">
-                <div class="right-label">APR</div>
-                <div class="left-label">...%</div>
-              </div>
-              <div class="content-row">
-                <div class="right-label">Rewards</div>
-                <div class="left-label">$...</div>
-              </div>
-              <div class="content-row">
-                <div class="right-label">Multiplier Points APR</div>
-                <div class="left-label">100.00%</div>
-              </div>
-              <div class="content-row">
-                <div class="right-label">Boost Percentage</div>
-                <div class="left-label">...%</div>
-              </div>
-              <div class="break-div"></div>
-              <!-- break div -->
-              <div class="content-row">
-                <div class="right-label">Total Staked</div>
-                <div class="left-label">0 $ZOMI ($...)</div>
-              </div>
-              <div class="content-row">
-                <div class="right-label">Total Supply</div>
-                <div class="left-label">10,000 $ZOMI ($10)</div>
+              <div class="table-foot-div">
+                <button type="button" class="foot-btn">Buy $ZOMI</button>
               </div>
             </div>
-            <div class="break-div"></div>
-            <!-- break div -->
-            <div class="table-foot-div">
-              <button type="button" class="foot-btn"></button>
+          </div>
+
+          <!-- table 2 -->
+          <div class="earn-sec-tables">
+            <div class="sec-tables">
+              <div class="table-title-div">Total Rewards</div>
+              <div class="break-div"></div>
+              <!-- break div -->
+              <div class="table-content-div">
+                <div class="content-row">
+                  <div class="right-label">ETH (WETH)</div>
+                  <div class="left-label">... ($...)</div>
+                </div>
+                <div class="content-row">
+                  <div class="right-label">$ZOMI</div>
+                  <div class="left-label">... ($...)</div>
+                </div>
+                <div class="content-row">
+                  <div class="right-label">Escrowed $ZOMI</div>
+                  <div class="left-label">... ($...)</div>
+                </div>
+                <div class="content-row">
+                  <div class="right-label">Multiplier Points</div>
+                  <div class="left-label">...</div>
+                </div>
+                <div class="content-row">
+                  <div class="right-label">Staked Multiplier Points</div>
+                  <div class="left-label">...</div>
+                </div>
+                <div class="content-row">
+                  <div class="right-label">Total</div>
+                  <div class="left-label">$...</div>
+                </div>
+                <div class="break-div"></div>
+                <!-- break div -->
+                <div class="table-foot-div">
+                  <button type="button" class="foot-btn Cn-btn">
+                    Connect Wallet
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- table 3  -->
+          <div class="earn-sec-tables">
+            <div class="sec-tables">
+              <div class="table-title-div">$ZLP (Ethereum)</div>
+              <div class="break-div"></div>
+              <!-- break div -->
+              <div class="table-content-div">
+                <div class="content-row">
+                  <div class="right-label">Price</div>
+                  <div class="left-label">$...</div>
+                </div>
+                <div class="content-row">
+                  <div class="right-label">Wallet</div>
+                  <div class="left-label">... $ZLP ($...)</div>
+                </div>
+                <div class="content-row">
+                  <div class="right-label">Staked</div>
+                  <div class="left-label">... $ZLP ($...)</div>
+                </div>
+                <div class="break-div"></div>
+                <!-- break div -->
+                <div class="content-row">
+                  <div class="right-label">APR</div>
+                  <div class="left-label">...%</div>
+                </div>
+                <div class="content-row">
+                  <div class="right-label">Rewards</div>
+                  <div class="left-label">$...</div>
+                </div>
+                <div class="break-div"></div>
+                <!-- break div -->
+                <div class="content-row">
+                  <div class="right-label">Total Staked</div>
+                  <div class="left-label">... $ZLP ($...)</div>
+                </div>
+                <div class="content-row">
+                  <div class="right-label">Total Supply</div>
+                  <div class="left-label">... $ZLP ($...)</div>
+                </div>
+              </div>
+              <div class="break-div"></div>
+              <!-- break div -->
+              <div class="table-foot-div third-table-btn">
+                <button type="button" class="foot-btn">Buy $ZLP</button>
+                <button type="button" class="foot-btn">Sell $ZLP</button>
+              </div>
+            </div>
+          </div>
+          <!-- table 4 -->
+          <div class="earn-sec-tables">
+            <div class="sec-tables">
+              <div class="table-title-div">Escrowed $ZOMI</div>
+              <div class="break-div"></div>
+              <!-- break div -->
+              <div class="table-content-div">
+                <div class="content-row">
+                  <div class="right-label">Price</div>
+                  <div class="left-label">$0.00</div>
+                </div>
+                <div class="content-row">
+                  <div class="right-label">Wallet</div>
+                  <div class="left-label">... esZOMI ($...)</div>
+                </div>
+                <div class="content-row">
+                  <div class="right-label">Staked</div>
+                  <div class="left-label">... esZOMI ($...)</div>
+                </div>
+                <div class="break-div"></div>
+                <!-- break div -->
+                <div class="content-row">
+                  <div class="right-label">APR</div>
+                  <div class="left-label">...%</div>
+                </div>
+
+                <div class="content-row">
+                  <div class="right-label">Multiplier Points APR</div>
+                  <div class="left-label">100.00%</div>
+                </div>
+
+                <div class="break-div"></div>
+                <!-- break div -->
+                <div class="content-row">
+                  <div class="right-label">Total Staked</div>
+                  <div class="left-label">... esZOMI ($...)</div>
+                </div>
+                <div class="content-row">
+                  <div class="right-label">Total Supply</div>
+                  <div class="left-label">1,023,379 esZOMI ($1,059)</div>
+                </div>
+              </div>
+              <div class="break-div"></div>
+              <!-- break div -->
+              <div class="table-foot-div">
+                <button type="button" class="foot-btn">Buy $ZOMI</button>
+              </div>
             </div>
           </div>
         </div>
       </div>
+
       <div class="vest-sec"></div>
     </main>
+
+    <!-- footer  -->
+    <footer class="home-foot">
+      <div class="company-name">
+        <img src="/Images/logo.png" alt="icon" />
+        <p>RomiFinance</p>
+      </div>
+      <div class="social-links">
+        <a class="social-icons"><i class="fa-brands fa-twitter fa-3x"></i></a>
+        <a class="social-icons"><i class="fa-solid fa-m fa-3x"></i></a>
+        <a class="social-icons"><i class="fa-brands fa-github fa-3x"></i></a>
+        <a class="social-icons"><i class="fa-brands fa-telegram fa-3x"></i></a>
+        <a class="social-icons"><i class="fa-brands fa-discord fa-3x"></i></a>
+      </div>
+      <div class="footer-links">
+        <a class="foot-link" href="#">Terms and Conditions</a>
+        <a class="foot-link" href="#">Referral Terms</a>
+        <a class="foot-link" href="#">Media Kit</a>
+      </div>
+    </footer>
   </body>
 </html>

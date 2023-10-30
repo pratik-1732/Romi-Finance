@@ -109,11 +109,70 @@ header {
   justify-content: center;
 }
 .ref-box {
+  text-align: center;
   display: flex;
   flex-direction: column;
   align-items: center;
   margin: 5rem 0;
   padding: 2rem;
+  padding-top: 0.5rem;
   border: 2px solid hsla(0, 0%, 100%, 0.062745098);
   width: 50rem;
+}
+.ref-box-title {
+  font-size: 2.5rem;
+  line-height: 2rem;
+}
+.ref-box-disc {
+  font-size: 1.8rem;
+  line-height: 2rem;
+  margin-bottom: 3rem;
+}
+.ref-box-btn {
+  padding: 1.2rem;
+  line-height: 1.8rem;
+  font-size: 1.5rem;
+  background-color: #3eb489;
+  border: none;
+  width: 50rem;
+  border-radius: 0.4rem;
+  color: white;
+}
+
+/* footer  */
+.home-foot {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 20rem;
+  border-top: 1px solid #4d4d4e;
+  padding-top: 4rem;
+  width: 100vw;
+  text-align: center;
+}
+.comany-name {
+  height: 4rem;
+}
+.social-links {
+  display: flex;
+}
+.social-links a {
+  text-decoration: none;
+}
+.social-icons {
+  height: 4rem;
+}
+.footer-links {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1.3rem;
+}
+.foot-link {
+  color: #e6e6ea;
+  font-size: 1.7rem;
+  line-height: 1.8rem;
+  font-weight: 400;
+  text-decoration: none;
+  margin: 0 1.2rem;
+  margin-top: 1.2rem;
 }

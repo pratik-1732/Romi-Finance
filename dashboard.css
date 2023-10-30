@@ -31,15 +31,18 @@ header {
 }
 .nav-left p {
   color: white;
-  font-size: 1.5rem;
+  font-size: 1.9rem;
 }
 .nav-middle {
   display: flex;
 }
 .nav-middle a {
   margin: 2rem;
-  color: white;
+  color: #787983;
   font-size: 2rem;
+}
+.nav-middle a:hover {
+  color: white;
 }
 .nav-right {
   width: 25rem;
@@ -105,8 +108,8 @@ header {
   display: flex;
   flex-direction: column;
   width: 55rem;
-  height: 25rem !important;
-  height: 2.2rem;
+  height: 22rem !important;
+  line-height: 2.2rem;
   padding: 1.6rem;
   border-radius: 0.4rem;
   border: 1px solid #4d4e4d;
@@ -129,8 +132,120 @@ header {
 .table-sub-content {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   height: 2.5rem;
   padding: 0.2rem 0;
+  margin-bottom: 0.2rem;
 }
 
 /* tokens   */
+
+/* last table  */
+.last-table {
+  padding: 1.5rem 1.5rem;
+  border: 1px solid #4d4d4e;
+  border-radius: 0.4rem;
+  font-size: 1.5rem;
+  text-align: left;
+}
+.last-table-title {
+  font-size: 1.6rem;
+  line-height: 2rem;
+  font-weight: 400;
+  color: #fff;
+  margin-bottom: 1.5rem;
+  display: flex;
+  align-items: center;
+}
+.break-div {
+  height: 1px;
+  background: #4d4d4e;
+  margin: 1.05rem -1.5rem;
+}
+.table-content {
+  width: calc(100% + 3.1rem);
+  border-spacing: 0;
+  white-space: nowrap;
+  font-size: 1.5rem;
+}
+.table-content-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 4.6rem;
+}
+.table-content-row-info {
+  display: flex;
+}
+.info-title {
+  font-size: 1.6rem;
+  line-height: 2rem;
+  font-weight: 400;
+  color: #fff;
+}
+.info-subtitle {
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  font-weight: 400;
+  color: #a9a9b0;
+}
+
+/* footer  */
+.home-foot {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 20rem;
+  border-top: 1px solid #4d4d4e;
+  padding-top: 2rem;
+  width: 100vw;
+  text-align: center;
+}
+.company-name {
+  height: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1.1rem;
+}
+.company-name img {
+  height: 8rem;
+}
+.company-name p {
+  font-size: 3rem;
+  font-weight: 500;
+  line-height: 2rem;
+}
+.social-links {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+}
+.social-links a {
+  text-decoration: none;
+  margin: 2.6rem;
+}
+.social-icons {
+  height: 3rem;
+  color: #787983;
+}
+.social-icons:hover {
+  color: white;
+}
+.social-icons i {
+  height: 2.5rem;
+}
+.footer-links {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1.3rem;
+}
+.foot-link {
+  color: #e6e6ea;
+  font-size: 1.7rem;
+  line-height: 1.8rem;
+  font-weight: 400;
+  text-decoration: none;
+  margin: 0 1.2rem;
+  margin-top: 1.2rem;
+}
